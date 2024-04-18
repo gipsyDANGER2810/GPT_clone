@@ -1,0 +1,65 @@
+.main{
+    min-height: calc(100vh - 14rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem 10rem;
+
+
+}
+
+.chat{
+    margin: 1rem;
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+.chatImg{
+    object-fit: cover;
+    width: 3.5rem;
+    margin-right: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.bot{
+    background-color: #171717;
+    width: fit-content;
+    border-radius: 0.5rem;
+}
+
+
+.chatFooter{
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.input{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    width: 100rem;
+    
+    
+}
+
+.input>input{
+    width: calc(100% - 3rem);
+    border-radius: 1rem;
+    padding: 1.25rem;
+    color: white;
+}
+
+.input>input, .send{
+    background: transparent;
+    border: none;
+    margin-left: 1rem;
+ 
+}

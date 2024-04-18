@@ -1,0 +1,115 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(100, 100, 100);
+    background-color: #171717
+}
+
+.logo {
+    margin-right: 1rem;
+}
+
+.brand {
+    font-size: 2rem;
+}
+
+.upper {
+    padding: 2.5rem;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    flex: 7;
+}
+
+.upperSideTop {
+    display: flex;
+    align-items: center;
+}
+
+.addBtn {
+    padding-right: 1rem;
+    height: 2rem;
+}
+
+.midBtn {
+    background: transparent;
+    color: white;
+
+    border: none;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+}
+
+.midBtn:hover {
+    background-color: rgb(35, 34, 34);
+    cursor: pointer;
+}
+
+.query {
+    background: transparent;
+    color: white;
+
+    border: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+    border: white;
+}
+
+.query:hover {
+    background-color: rgb(35, 34, 34);
+    cursor: pointer;
+}
+
+.query>img{
+    height: 1.75rem;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+
+.lower {
+    flex: 3;
+    padding: 2rem;
+}
+
+.listItems{
+    margin: 0.75rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    max-width: 20rem !important;
+}
+
+.listItems:hover{
+    background-color: rgb(35, 34, 34);
+    cursor: pointer;
+}
+
+.listItemsImg{
+    margin: 1rem;
+    padding-right: 1rem;
+}
+
+.listItems:nth-child(1)>.listItemsImg{
+    margin-right: 0.5rem;
+}
+
+.listItems:nth-child(3)>.listItemsImg{
+    margin-right: 0.75rem;
+}

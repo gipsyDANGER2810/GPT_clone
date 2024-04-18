@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background: #212121;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar{
+  flex: 1.5;
+}
+
+.main{
+  flex: 8.5;
+}
